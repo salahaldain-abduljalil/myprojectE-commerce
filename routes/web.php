@@ -56,6 +56,7 @@ Route::post('/search',[ProductController::class,function(Request $request){
 
 }]);
 
+//
 Route::get('/productsTable',[ProductController::class,'productsTable']);
 Route::get('/single-product/{productid}',[ProductController::class,'showproduct']);
 
