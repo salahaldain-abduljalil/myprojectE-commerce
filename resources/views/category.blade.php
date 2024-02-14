@@ -10,7 +10,7 @@
                 <div class="product-filters">
                     <ul>
                         @foreach ($categories as $item)
-                        <li data-filter="_.{{$item->id}}">{{$item->name}}</li>
+                        <li  data-filter=".{{$item->id}}">{{$item->name}}</li>
                         @endforeach
                         <li class="active" data-filter="*">الكل</li>
 

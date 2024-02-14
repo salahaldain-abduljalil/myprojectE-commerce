@@ -117,3 +117,9 @@ Route::get('/admin',function(){
 Route::get('premission',function(){
     return view('admin.includes.adminpremission');
 })->middleware('checkrole:admin');
+
+
+
+
+
+Route::post('/ajax-example', 'AjaxController@ajaxAction')->name('ajax.example');

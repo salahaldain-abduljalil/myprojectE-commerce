@@ -271,7 +271,7 @@
 						<h2 class="widget-title">Pages</h2>
 						<ul>
 							<li><a href="/">الرئيسية</a></li>
-							<li><a href="/ProductsTable">المنتجات</a></li>
+							<li><a href="/ProductsTable" id="ajaxButton">المنتجات</a></li>
 							<li><a href="services.html">Shop</a></li>
 							<li><a href="news.html">News</a></li>
 							<li><a href="contact.html">Contact</a></li>
@@ -316,6 +316,8 @@
 		</div>
 	</div>
 	<!-- end copyright -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
 	<!-- jquery -->
 	<script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>
@@ -337,6 +339,7 @@
 	<script src="{{asset('assets/js/sticker.js')}}"></script>
 	<!-- main js -->
 	<script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="{{ asset('assets/js/ajax.js') }}"></script>
 
 </body>
 </html>

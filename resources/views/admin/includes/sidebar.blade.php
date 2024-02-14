@@ -55,7 +55,7 @@
           </ul> --}}
         </li>
         <li class="nav-item">
-          <a href="/productsTable" class="nav-link">
+          <a href="/productsTable" id="ajaxButton" class="nav-link">
             <i class="fa-brands fa-product-hunt"></i>            <p>
             جدول المنتجات
               <span class="badge bg-success right">products</span>
@@ -63,7 +63,7 @@
           </a>
         </li>
         <li class="nav-item has-treeview">
-          <a href="/cart" class="nav-link">
+          <a href="/cart" class="nav-link" id="ajaxButton">
             <i class="nav-icon fas fa-copy"></i>
             <p>
              السلة
@@ -73,7 +73,7 @@
           </a>
         </li>
         <li class="nav-item has-treeview">
-            <a href="/previousorder" class="nav-link">
+            <a href="/previousorder" class="nav-link" id="ajaxButton">
 
              <p>
                الطلبات السابقة
