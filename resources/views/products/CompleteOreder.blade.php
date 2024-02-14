@@ -1,7 +1,8 @@
-@extends('layouts.master')
-
-
+{{-- @extends('layouts.master') --}}
+@extends('admin.includes.master')
 @section('content')
+@section('contentdashboard')
+@extends('admin.includes.layoutsmaster')
     <!-- check out section -->
     <div class="checkout-section mt-150 mb-150">
         <div class="container">
@@ -117,7 +118,7 @@
                                                                 <thead class="total-table-head">
                                                                     <tr class="table-total-row">
                                                                         <th>Total</th>
-                                                                        <th>Price</th>     
+                                                                        <th>Price</th>
                                                                     </tr>
                                                                 </thead>
                                                                 <tbody>
@@ -156,4 +157,6 @@
             </div>
         </div>
         <!-- end check out section -->
+    @endsection
+
     @endsection

@@ -1,10 +1,13 @@
-
-@extends('layouts.master')
+@extends('admin.includes.master')
 @section('content')
+@section('contentdashboard')
+@extends('admin.includes.layoutsmaster')
 
 
-
-<!-- cart -->
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+            <!-- cart -->
 <div class="cart-section mt-150 mb-150">
     <div class="container">
         <div class="row">
@@ -30,7 +33,7 @@
 
                             <tr class="table-body-row">
                                 <td class="product-remove"><a href="/deletecartitem/{{$item->id}}"><i class="far fa-window-close"></i></a></td>
-                                <td class="product-image"><img src="{{asset($item->product->imagepath)}}" alt=""></td>
+                                <td class="product-image"><img src="{{asset($item->product->imagepath)}}" alt="" width="100"></td>
                                 <td class="product-name"><a href="/single-product/{{$item->id}}">{{$item ->product->name}}</a></td>
 
                                 <td class="product-price">$85</td>
@@ -75,5 +78,9 @@
     </div>
 </div>
 <!-- end cart -->
+    </div>
+  </div>
+</div>
 
+@endsection
 @endsection

@@ -1,7 +1,8 @@
-@extends('layouts.master')
-
 
 @section('content')
+@extends('admin.includes.master')
+@section('contentdashboard')
+@extends('admin.includes.layoutsmaster')
     <!-- check out section -->
     <div class="checkout-section mt-150 mb-150">
         <div class="container">
@@ -138,4 +139,6 @@
             </div>
         </div>
         <!-- end check out section -->
+    @endsection
+
     @endsection

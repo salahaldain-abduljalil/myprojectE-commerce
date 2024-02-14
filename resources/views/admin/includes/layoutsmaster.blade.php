@@ -48,7 +48,7 @@
     <!--PreLoader Ends-->
 
 	<!-- header -->
-	<div class="top-header-area" id="sticker">
+	{{-- <div class="top-header-area" id="sticker">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-sm-12 text-center">
@@ -134,11 +134,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 	<!-- end header -->
 
 	<!-- search area -->
-	<div class="search-area">
+	{{-- <div class="search-area">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -157,10 +157,10 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> --}}
 	<!-- end search area -->
 
-	<!-- home page slider -->
+	{{-- <!-- home page slider -->
 	<div class="homepage-slider">
 		<!-- single home slider -->
 		<div class="single-homepage-slider homepage-bg-1">
@@ -220,11 +220,11 @@
 			</div>
 		</div>
 	</div>
-	<!-- end home page slider -->
+	<!-- end home page slider --> --}}
 
 
 
-
+{{--
    <center style="font-size: 20px;"> {{trans('string.welcome')}}
 </center>
     <form action="{{route('changelanguage')}}" method="post">
@@ -235,7 +235,7 @@
     </select>
 
 
-    </form>
+    </form> --}}
 
 
 @yield('content')
@@ -246,7 +246,7 @@
 
 
 
-
+{{--
     <!-- footer -->
 	<div class="footer-area">
 		<div class="container">
@@ -315,7 +315,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- end copyright -->
+	<!-- end copyright --> --}}
 
 	<!-- jquery -->
 	<script src="{{asset('assets/js/jquery-1.11.3.min.js')}}"></script>

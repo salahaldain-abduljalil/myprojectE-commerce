@@ -4,8 +4,15 @@
 <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
 
 
-@extends('layouts.authentication')
-@section('content')
+{{-- @extends('layouts.authentication') --}}
+@extends('admin.includes.master')
+@section('contentdashboard')
+<div class="col-sm-6">
+    <ol class="breadcrumb float-sm-right">
+      <li class="breadcrumb-item"><a href="#">@section('home')جدول المنتجات@endsection</a></li>
+      <li class="breadcrumb-item active">@section('dashboard') لوحة الأدمين@endsection</li>
+    </ol>
+  </div>
 
 <div class="container mt-5 mb-5">
     <div class="text-right">
